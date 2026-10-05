@@ -1,0 +1,16 @@
+{
+  "name": "oss-prague-2026-jupyter-security",
+  "version": "1.0.0",
+  "description": "Jupyter Mini Summit - Jupyter Security",
+  "main": "index.js",
+  "scripts": {
+    "html": "marp slides.md -o output/index.html && cp -r images output/",
+    "pdf": "marp slides.md -o slides.pdf --allow-local-files"
+  },
+  "keywords": [],
+  "author": "Yann Pellegrini",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.5.0"
+  }
+}
